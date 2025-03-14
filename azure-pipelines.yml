@@ -35,5 +35,5 @@ steps:
     azureSubscription: 'SparkLab_Subscription(fd44353f-87ca-42f5-8281-3554afbe6a88)'
     appType: 'webAppLinux'
     appName: 'vveginventor'
-    package: '$(System.DefaultWorkingDirectory)/**/*.war'
+    package: '$(Pipeline.Workspace)/drop/*.war'
 
