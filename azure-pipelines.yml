@@ -32,8 +32,8 @@ steps:
     publishLocation: 'Container'
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'SparkLab_Subscription(1)(fd44353f-87ca-42f5-8281-3554afbe6a88)'
+    azureSubscription: 'SparkLab_Subscription(fd44353f-87ca-42f5-8281-3554afbe6a88)'
     appType: 'webAppLinux'
     appName: 'vveginventor'
     package: '$(System.DefaultWorkingDirectory)/**/*.war'
-    runtimeStack: 'JAVA:8-jre8'
+
